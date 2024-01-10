@@ -1,0 +1,38 @@
+/vendor/
+/node_modules/
+
+# Composer binary
+/composer.phar
+
+# PHPStorm project files
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Docker container volumes
+*.data
+
+# PHPUnit artifacts
+/.phpunit.result.cache
+
+# User-specific files
+/.vscode/
+*.sublime-workspace
+
+# Build artifacts
+/build/
+/coverage/
+
+# Cache files
+/cache/
+/tmp/
