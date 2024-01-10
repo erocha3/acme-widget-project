@@ -1,0 +1,22 @@
+{
+    "name": "erocha3/acme-widget-project",
+    "description": "A PHP-based prototype application developed for Acme Widget Co.'s innovative sales system.",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Acme\\Tests\\": "tests/"
+        }
+    }
+}
